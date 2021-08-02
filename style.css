@@ -135,7 +135,41 @@ body{
 
    /* Media Queries */
 
-    @media (max-width: 650px){
+   @media (max-width: 425px){
+    nav{
+        justify-content: space-between;
+    }
+    
+    nav ul{
+        max-width: 100%;
+    }
+
+    nav ul li{
+        font-size: 1.2em;
+    }
+
+    .about{
+        background-color: white;
+        text-align: center;
+        padding: 5px auto;
+        
+    }
+
+    .about-text p{
+        font-size: 1.1rem;
+        margin: 20px auto;
+        padding: 0 15px;
+        text-align: justify;
+        line-height: 1.7;
+        
+    }
+
+    .btn-subscribe{
+        font-size: 1rem;
+    }
+}
+
+    @media (max-width: 450px){
         nav{
             justify-content: center;
         }
@@ -146,36 +180,4 @@ body{
         }
     }
 
-    @media (max-width: 425px){
-        nav{
-            justify-content: space-between;
-        }
-        
-        nav ul{
-            max-width: 100%;
-        }
-
-        nav ul li{
-            font-size: 1.2em;
-        }
-
-        .about{
-            background-color: white;
-            text-align: center;
-            padding: 5px auto;
-            
-        }
-
-        .about-text p{
-            font-size: 1.1rem;
-            margin: 20px auto;
-            padding: 0 15px;
-            text-align: justify;
-            line-height: 1.7;
-            
-        }
-
-        .btn-subscribe{
-            font-size: 1rem;
-        }
-    }
+    
