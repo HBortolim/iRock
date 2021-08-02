@@ -142,7 +142,7 @@ body{
 
     @media (max-width: 425px){
         nav{
-            justify-content: space-between;
+            justify-content: space-evenly;
         }
         
         nav ul{
