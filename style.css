@@ -136,7 +136,19 @@ body{
 
    /* Media Queries */
 
-   @media (max-width: 425px){
+    @media (max-width: 450px){
+        nav{
+            justify-content: center;
+        }
+
+        nav ul{
+            width: 100%;
+            justify-content: space-evenly;
+            margin-left: 0
+        }
+    }
+
+     @media (max-width: 425px){
     nav{
         justify-content: space-between;
     }
@@ -170,17 +182,5 @@ body{
         font-size: 1rem;
     }
 }
-
-    @media (max-width: 450px){
-        nav{
-            justify-content: center;
-        }
-
-        nav ul{
-            width: 100%;
-            justify-content: space-evenly;
-            margin-left: 0
-        }
-    }
 
     
