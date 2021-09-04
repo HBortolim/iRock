@@ -265,7 +265,10 @@
             justify-content: space-evenly;
             margin-left: 0;
         }
-        
+       
+       .form-container{
+        height: 90%;
+       }
         .intro-form h1{
             font: normal 700 2rem 'Open Sans', sans-serif;
             color: #161312;
