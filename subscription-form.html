@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form-style.css">
+    <link rel="shortcut icon" href="fav/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Turning into a rocker!</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="music.html">Our Music</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="form-container">
+
+        <form action="#">
+            <div class="intro-form">
+                <h1 id="title">Subscribe to iRock</h1>
+                <p id="subtitle">Fill the forms to start rocking your life!</p>
+            </div>
+            <div class="nomes">
+                <div class="info">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="info">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" required>
+                </div>
+
+                <div class="info">
+                    <label for="birth">Birthdate</label>
+                    <input type="date" id="birth" place required>
+                </div>
+            </div>
+
+            <div class="dados-login">
+                <div class="info">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="user@irock.com" required>
+                </div>
+                <div class="info">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="password" required>
+                </div>
+                <div class="info">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" placeholder="DDD 91234-5678">
+                </div>
+            </div>
+
+
+            <div class="local">
+                <div class="info">
+                    <label for="state">State</label>
+                    <select name="state" id="state" required>
+                        <option value="select" selected hidden>Select</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                </div>
+                <div class="info">
+                    <label for="city">City</label>
+                    <input type="text" id="city" required>
+                </div>
+                <div class="info">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" required>
+                </div>
+                <div class="info">
+                    <label for="cep">CEP</label><br>
+                    <input type="number" id="cep" placeholder="12345678" required>
+                </div>
+            </div>
+
+            <div class="gender">
+                <label>Gender</label>
+                <div class="gender-details">
+                    <div>
+                        <label for="male">
+                            <input type="radio" id="male" value="M" name="gender" required>Male
+                        </label>
+                    </div>
+                    <div>
+                        <label for="female">
+                            <input type="radio" id="female" value="F" name="gender" required>Female
+                        </label>
+                    </div>
+                    <div>
+                        <label for="nogender">
+                            <input type="radio" id="nogender" value="NG" name="gender" required>Prefer not to say
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="check-area">
+                <label id="check-title">How did you get to know iRock?</label>
+                <div class="check-options">
+                    <div>
+                        <input type="checkbox" name="1" id="option1" value="insta">
+                        <label for="option1">Instagram</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="2" id="option2" value="twitter">
+                        <label for="option2">Twitter</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="3" id="option3" value="phone">
+                        <label for="option3">Phone</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="4" id="option4" value="friend">
+                        <label for="option4">By a friend</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="5" id="option5" value="google">
+                        <label for="option5">Google</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-area">
+                <label>Tell us about your experience to help us improve:</label>
+                <textarea name="suggetion" id="suggestion" cols="50" rows="8"
+                    placeholder="Your opinion is fundamental for us! Write it down here😀"></textarea>
+            </div>
+            <button type="submit" class="botao">Turn into a Rocker!</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
