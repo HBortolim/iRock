@@ -163,7 +163,6 @@ body{
    @media (max-width: 500px){
     nav{
         justify-content: center;
-        font-size: 1.1rem;
     }
 
     nav ul{
