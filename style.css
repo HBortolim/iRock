@@ -135,61 +135,51 @@ body{
     }
 
    /* Media Queries */
-   @media (max-width: 450px){
-    nav{
-        justify-content: center;
-    }
+  
 
-    nav ul{
-        width: 100%;
-        justify-content: space-evenly;
-        margin-left: 0;
-    }
-}
+    @media (max-width: 768px){
+        nav{
+            justify-content: center;
+            font-size: 1rem;
+        }
 
-@media (max-width: 768px){
-    nav{
-        justify-content: center;
-        font-size: 1rem;
-    }
-
-    nav ul{
-        width: 100%;
-        justify-content: space-evenly;
-        margin-left: 0;
-    }
+        nav ul{
+            width: 100%;
+            justify-content: space-evenly;
+            margin-left: 0;
+        }
 }
 
    @media (max-width: 500px){
-    nav{
-        justify-content: center;
-    }
+        nav{
+            justify-content: center;
+        }
 
-    nav ul{
-        width: 100%;
-        justify-content: space-evenly;
-        margin-left: 0;
-    }
+        nav ul{
+            width: 100%;
+            justify-content: space-evenly;
+            margin-left: 0;
+        }
 
-    .about{
-        background-color: white;
-        text-align: center;
-        padding: 5px auto;
-        
-    }
+        .about{
+            background-color: white;
+            text-align: center;
+            padding: 5px auto;
 
-    .about-text p{
-        font-size: 1.1rem;
-        margin: 20px auto;
-        padding: 0 15px;
-        text-align: justify;
-        line-height: 1.7;
-        
-    }
+        }
 
-    .btn-subscribe{
-        font-size: 1rem;
-    }
+        .about-text p{
+            font-size: 1.1rem;
+            margin: 20px auto;
+            padding: 0 15px;
+            text-align: justify;
+            line-height: 1.7;
+
+        }
+
+        .btn-subscribe{
+            font-size: 1rem;
+        }
 }
 
     @media (max-width: 320px){
