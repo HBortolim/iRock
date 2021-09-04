@@ -112,7 +112,7 @@
         align-items: center;
         margin-bottom: 20px;
         flex-wrap: wrap;
-        width: 95%;
+        width: 100%;
     }
 
     .info{
@@ -226,7 +226,6 @@
         }
 
         .form-container form .nomes{
-            flex-wrap: nowrap;
             width: 100%;
         }
 
