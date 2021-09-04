@@ -266,9 +266,6 @@
             margin-left: 0;
         }
        
-       .form-container{
-        height: 90%;
-       }
         .intro-form h1{
             font: normal 700 2rem 'Open Sans', sans-serif;
             color: #161312;
@@ -286,7 +283,7 @@
         }
        
        .form-container form input[type="text"], input[type="tel"], input[type="email"], input[type="tel"], input[type="password"], input[type="number"], input[type="date"], select{
-            width: 80%;
+            width: 85%;
         }
     
         .check-options, .gender-details{
