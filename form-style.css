@@ -109,7 +109,6 @@
     .form-container form .local{
         display: flex;
         justify-content: space-between;
-        align-items: center;
         margin-bottom: 20px;
         flex-wrap: wrap;
         width: 100%;
