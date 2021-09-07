@@ -219,7 +219,7 @@
         }
 
         .form-container form .dados-login{
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             width: 100%;
         }
 
