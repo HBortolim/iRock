@@ -178,7 +178,7 @@ body{
         }
 
         .btn-subscribe{
-            font-size: 1rem;
+            font-size: 1.1rem;
         }
 }
 
@@ -186,5 +186,8 @@ body{
         nav ul li, footer, .about-text{
             font-size: 0.9rem;
         }
+
+        .btn-subscribe{
+            font-size: 1.1rem;
+        }
     }
-    
