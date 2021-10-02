@@ -124,6 +124,11 @@
 
     input[type="radio"]{
         margin-right: 5px;
+        accent-color:#9f191f;
+    }
+
+    input[type="checkbox"]{
+        accent-color: #9f191f;
     }
 
     .form-container form label{
@@ -146,7 +151,7 @@
     .form-container form .gender > label, #check-title, .text-area>label{
         font-size: 1.1rem;
     }
-
+    
     .form-container form .check-options{
         display: flex;
         justify-content: space-between;
@@ -222,7 +227,7 @@
             flex-wrap: nowrap;
             width: 100%;
         }
-
+        
         .form-container form .local{
             flex-wrap: nowrap;
             width: 100%;
