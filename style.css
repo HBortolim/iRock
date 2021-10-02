@@ -82,7 +82,7 @@ body{
     }
 
     .intro{
-        background-image: url(/img/jumping.jpg);
+        background-image: url(img/jumping.jpg);
         background-position: top;
         background-size: cover;
         height: 100vh;
@@ -211,7 +211,7 @@ body{
         }
 
         .intro{
-            background-image: url(/img/sjumping.jpg);
+            background-image: url(img/sjumping.jpg);
             background-position: left;
             background-size: cover;
         }
