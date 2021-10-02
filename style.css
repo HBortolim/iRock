@@ -211,6 +211,7 @@
         }
 
         .intro{
+            align-items: center;
             background-image: url(img/sjumping.jpg);
             background-position: left;
             background-size: cover;
@@ -239,6 +240,7 @@
         }
 
         .intro{
+            align-items: center;
             background-image: url(img/sjumping.jpg);
             background-position: left;
             background-size: cover;
