@@ -4,6 +4,7 @@
      *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     }
     
 
@@ -26,7 +27,7 @@ body{
     nav{
         width: 100%;
         background-color: #363636;
-        display: inline-flex;
+        display: flex;
         height: 40px;
     }
 
@@ -35,8 +36,7 @@ body{
         display: inherit;
         list-style-type: none;
         align-items: center;
-        justify-content: space-between;
-        margin-left: 1rem;
+        justify-content: space-around;
     }
 
     nav ul li a{
@@ -81,8 +81,49 @@ body{
         font-size: 1.25rem;
     }
 
+    .intro{
+        background-image: url(/img/jumping.jpg);
+        background-position: top;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro-content{
+        color: #fff;
+        text-align: center;
+        max-width: 800px;
+        
+    }
+
+    .intro-content h1{
+        transform: skewX(170deg);
+        font-size: 2rem;
+        margin: 40px 0 20px 0;
+    }
+
+    .intro-content h2{
+        font-size: 1.6rem;
+        margin: 0 0 20px 0;
+    }
+
+    .intro-content p{
+        font-size: 1.20rem;
+    }
+
+    .inside-intro{
+        margin: auto;
+    }
+
+    #standout{
+        margin: 90px 0;
+        font-weight: bold;
+        font-size: 1.30rem;
+    }
+
     .about{
-        background-color: white;
+        background-color: #fff;
         text-align: center;
         padding: 20px 0;
     }
@@ -169,6 +210,15 @@ body{
 
         }
 
+        .intro{
+            background-image: url(/img/sjumping.jpg);
+            background-position: left;
+            background-size: cover;
+        }
+        .intro-content p{
+            font-size: 1.1rem;
+        }
+
         .about-text p{
             font-size: 1.1rem;
             margin: 20px auto;
@@ -184,8 +234,14 @@ body{
 }
 
     @media (max-width: 320px){
-        nav ul li, footer, .about-text{
-            font-size: 1.1rem;
+        nav ul li, footer, .about-text, .intro p{
+            font-size: 1rem;
+        }
+
+        .intro{
+            background-image: url(img/sjumping.jpg);
+            background-position: left;
+            background-size: cover;
         }
 
         .btn-subscribe{
