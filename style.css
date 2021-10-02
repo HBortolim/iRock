@@ -207,11 +207,9 @@
             background-color: white;
             text-align: center;
             padding: 5px auto;
-
         }
 
         .intro{
-            align-items: center;
             background-image: url(img/sjumping.jpg);
             background-position: left;
             background-size: cover;
@@ -240,7 +238,6 @@
         }
 
         .intro{
-            align-items: center;
             background-image: url(img/sjumping.jpg);
             background-position: left;
             background-size: cover;
