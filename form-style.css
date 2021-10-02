@@ -6,13 +6,6 @@
     padding: 0;
     }
 
-     :root{
-        --primary:var(#161312);
-        --secondary:var(#6c6d75);
-        --third:var(#EBEBEB);
-        --fourth:var(#9f191f);
-    }
-
     body{
         font-family: 'Open Sans', sans-serif;
         display: flex;
